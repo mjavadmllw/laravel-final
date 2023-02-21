@@ -1,0 +1,15 @@
+<div class="trending-wrapper">
+        <br><br>
+        <h3>trending products</h3>
+        @foreach($products as $item )
+            <div class="trending-item">
+            <img class="trending-image" src="{{ URL::asset($item['gallery']) }}">
+            <div class="">
+                <h6>{{$item['name']}}</h6>
+                
+            </div>
+            </div>
+        @endforeach
+    </div>
+</div>
+<div class="clear-fix"></div>
