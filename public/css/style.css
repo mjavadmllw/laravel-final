@@ -1,0 +1,20 @@
+.posts{
+    margin: 10px 20% ;
+    background-color: rgb(204, 204, 204);
+    border-radius: 5px;
+}
+.posts a h4{
+    margin-left: 20px;
+}
+.posts p{
+    margin-left: 35px;
+}
+
+.posting_box{
+    margin: 100px 20%;
+    text-align: center;
+}
+
+.posting_box input {
+    width: 500px;
+}
